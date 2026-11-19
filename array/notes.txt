@@ -1,0 +1,41 @@
+1. What is an array?
+
+An array is an ordered collection of elements stored using indexes. It allows efficient access to elements using their positions.
+
+2. What is the difference between an array and a Python list?
+- Traditional arrays generally store elements of the same data type and have fixed size in many languages.
+- Python lists are dynamic and can store different data types.
+- Python lists support operations such as append, insert and remove.
+3. Why does array indexing take O(1) time?
+
+Because the location of an element can be calculated directly using its index.
+
+4. Why does insertion at the beginning take O(n)?
+
+Because existing elements need to be shifted to make space.
+
+5. What is array traversal?
+
+Visiting each element of an array, usually using a loop.
+
+6. What is an in-place operation?
+
+An operation that modifies the original array instead of creating another array.
+
+7. What is the difference between arr[i] and arr[-1]?
+
+arr[i] accesses an element using a zero-based index. arr[-1] accesses the last element.
+
+8. What happens if you access an invalid index in Python?
+
+Python raises IndexError.
+
+9. What is a subarray?
+
+A contiguous sequence of elements from an array.
+
+Example: For [1,2,3,4], [2,3] is a subarray, but [1,3] is not.
+
+10. What is the difference between a subarray and a subsequence?
+- Subarray: Elements must be contiguous.
+- Subsequence: Elements must maintain their relative order but don't need to be contiguous.
